@@ -29,7 +29,7 @@ class IndexView(TemplateView):
 				user_name = userlist[uservar]
 				request.session['user_name'] = uservar
 				print(request.session['user_name'])
-				return HttpResponse('Thank you %s . Please add 4588 to the end of URL to see your first task.' % user_name)
+				return HttpResponse('Thank you %s . Please add 1 to the end of URL to see your first task.' % user_name)
 			else:
 				user_name = ''
 				return HttpResponse('Sorry! You are not an authenticated user!')
