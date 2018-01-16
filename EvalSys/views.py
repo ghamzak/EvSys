@@ -38,20 +38,20 @@ class ThanksView(TemplateView):
 	"""docstring for ClassName"""
 	template_name = 'EvalSys/thanks.html'
 	def get(self, request):
-		from random import randint
+		# from random import randint
 
-		rndTelic = randint(4588, 5363)
-		while Qualia.objects.get(pk=rndTelic).post == True:
-			rndTelic = randint(4588, 5363)
-		rndConstitutive = randint(5364, 5845)
-		while Qualia.objects.get(pk=rndConstitutive).post == True:
-			rndConstitutive = randint(5364, 5845)
-		rndintAgentive = randint(5846, 5960)
-		while Qualia.objects.get(pk=rndintAgentive).post == True:
-			rndintAgentive = randint(5846, 5960)
+		# rndTelic = randint(4588, 5363)
+		# while Qualia.objects.get(pk=rndTelic).post == True:
+		# 	rndTelic = randint(4588, 5363)
+		# rndConstitutive = randint(5364, 5845)
+		# while Qualia.objects.get(pk=rndConstitutive).post == True:
+		# 	rndConstitutive = randint(5364, 5845)
+		# rndintAgentive = randint(5846, 5960)
+		# while Qualia.objects.get(pk=rndintAgentive).post == True:
+		# 	rndintAgentive = randint(5846, 5960)
 
-		args = {'rt': rndTelic, 'rc': rndConstitutive, 'ra': rndintAgentive}
-		return render(request, self.template_name, args)
+		# args = {'rt': rndTelic, 'rc': rndConstitutive, 'ra': rndintAgentive}
+		return render(request, self.template_name)
 
 
 class TelicDetailView(DetailView):
