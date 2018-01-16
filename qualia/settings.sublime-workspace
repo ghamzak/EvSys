@@ -1,0 +1,589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sa",
+				"sb_annotations"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"Http",
+				"HttpResponse"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"th",
+				"thanks"
+			],
+			[
+				"Inde",
+				"IndexForm"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"rnd",
+				"rndintAgentive"
+			],
+			[
+				"quali",
+				"qualia_detail_constitutive"
+			],
+			[
+				"qua",
+				"qualia_detail_agentive"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"get",
+				"get_queryset"
+			],
+			[
+				"Consti",
+				"constitutive"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"obje",
+				"objects"
+			],
+			[
+				"he",
+				"head\tTag"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"init",
+				"__init__"
+			],
+			[
+				"f",
+				"fields"
+			],
+			[
+				"Q",
+				"Qualia"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"qual",
+				"qualevalue"
+			],
+			[
+				"object",
+				"object_list"
+			],
+			[
+				"telic",
+				"telic_25"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"data",
+				"data_telic"
+			],
+			[
+				"thank",
+				"thanks_page"
+			],
+			[
+				"tha",
+				"thanks_page"
+			],
+			[
+				"Con",
+				"ConstitutiveView"
+			],
+			[
+				"Agen",
+				"AgentiveView"
+			],
+			[
+				"templa",
+				"template_name"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"tem",
+				"template_name"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"Home",
+				"HomeForm"
+			],
+			[
+				"http",
+				"HttpResponse"
+			],
+			[
+				"con",
+				"conf"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"pos",
+				"posdict"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"langu",
+				"language__icontains"
+			],
+			[
+				"cati",
+				"catid__icontains"
+			],
+			[
+				"name",
+				"name__icontains"
+			],
+			[
+				"que",
+				"query_string"
+			],
+			[
+				"qu",
+				"query_string"
+			],
+			[
+				"search",
+				"seearch_label"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"Cor",
+				"Corpus"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"border-bo",
+				"border-bottom-width"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"reser",
+				"reserveModal"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-image",
+				"border-image"
+			],
+			[
+				"image",
+				"border-image"
+			],
+			[
+				"col",
+				"table-column-group"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"imag",
+				"border-image"
+			],
+			[
+				"si",
+				"box-sizing"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"aut",
+				"autofocus\tAttr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"su",
+				"summary\tTag"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 229.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/settings/local.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/settings/production.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/EvalSys/thanks.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/EvalSys/qualia_detail_constitutive.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/db.sqlite3",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/EvalSys/agentive.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/EvalSys/constitutive.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/models.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/forms.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/snippets/nav.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/utils.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/views.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/admin.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/migrations/admin.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/settings/__init__.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/snippets/css.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/qualiaEval/qEval/EvalSys/templates/EvalSys/list.html",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/learningDjango/learningDjango/settings.py",
+		"/Users/ghamzak/PycharmProjects/DjangoTest/tango_with_django_project/tango_with_django_project/settings.py",
+		"/Users/ghamzak/PycharmProjects/ArapahoSoftware/Parser2/myparsersite/arpparser/templates/arpparser/verbstem.html",
+		"/Users/ghamzak/Downloads/presentation_1.bib",
+		"/Users/ghamzak/Downloads/hazm-master/hazm/POSTagger.py",
+		"/Users/ghamzak/Downloads/hazm-master/hazm/__init__.py",
+		"/Users/ghamzak/Downloads/hazm-master/hazm/DependencyParser.py",
+		"/Users/ghamzak/Downloads/hazm-master/resources/langModel.mco",
+		"/Users/ghamzak/Downloads/hazm-master/resources/malt.jar",
+		"/Users/ghamzak/Downloads/virtualenv-1.9/myVE/Corpora/templates/Corpora/results.html",
+		"/Users/ghamzak/Downloads/sigmakee-master/build.xml",
+		"/Users/ghamzak/Downloads/virtualenv-1.9/myVE/Corpora/templates/Corpora/base.html",
+		"/Users/ghamzak/Downloads/virtualenv-1.9/myVE/Corpora/templates/Corpora/post_list.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw1.css",
+		"/Users/ghamzak/Documents/CU Boulder/RA/arapaho/ParserOnWeb/index.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/index.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/teams.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw1guest3.css",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw1guest2.css",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw1guest.css",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/finalproject.css",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/aboutus.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/contactus.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/css/mystyles.css",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/css/mystyles-old.css",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest6.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest5.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest4.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/css/mystyles.less",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest2.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/indexguest3.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/history.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/index.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/About Us.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/index223.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/updatedindex.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/assignment2.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw111.css",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hw1-1.css",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/About_Us2.html",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/Home.html",
+		"/Users/ghamzak/Documents/CU Boulder/RA/Martha/word/onecaption_train-1.tree.word",
+		"/Users/ghamzak/Documents/CU Boulder/RA/Martha/word/multimodal_caption-4.tree.word",
+		"/Users/ghamzak/Documents/CU Boulder/RA/Martha/word/multimodal_caption-6.tree.word",
+		"/Users/ghamzak/Documents/CU Boulder/RA/Martha/word/onecaption_train-2.tree.word",
+		"/Users/ghamzak/Documents/CU Boulder/RA/Martha/word/onecaption_test.tree.word",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/CSS3/Assignment1/css/hwev.css",
+		"/Users/ghamzak/Documents/Coursera/FullStackWebDevelopment/FrontEnd UI Framework/conFusion/abc.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/HTML5/DemoProject.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/HTML5/Week1/Lesson1/FirstCode.html",
+		"/Users/ghamzak/Documents/Coursera/WebDesign/HTML5/Week1/Lesson1/Index.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

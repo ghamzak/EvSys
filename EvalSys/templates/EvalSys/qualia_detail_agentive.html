@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<div class="container">
+	<p>
+		Does the following seem like a typical or reasonable origin for the entity <strong> "{{object.node}}" </strong>? In other words, is the following how/why "{{object.node}}" has come about? If so, mark it as Reasonable. <br><br>
+		<i> {{object.qualevalue}} </i>
+	</p>
+
+	<form method="POST" id="agentiveform"> 
+		{% csrf_token %}
+		{{ form.as_p }}	
+	</form>	
+	<input type="submit" name="submit" value="Submit" form="agentiveform"> 
+</div>
+
+</html>
