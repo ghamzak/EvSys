@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'z-$42ng80y^gzea106vvv=#tloicf0
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['ghazaalak.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['ghazaleh.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
