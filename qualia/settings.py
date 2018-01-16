@@ -20,10 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'z-$42ng80y^gzea106vvv=#tloicf0x=y#s_t5v^dfy%)3jn*n'
+# SECRET_KEY = 'z-$42ng80y^gzea106vvv=#tloicf0x=y#s_t5v^dfy%)3jn*n'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'z-$42ng80y^gzea106vvv=#tloicf0x=y#s_t5v^dfy%)3jn*n')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['ghazaalak.pythonanywhere.com', '127.0.0.1']
 
@@ -120,3 +122,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+
+# for deployment
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SECURE_BROWSER_XSS_FILTER = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
