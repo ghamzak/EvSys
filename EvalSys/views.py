@@ -51,6 +51,11 @@ class TelicDetailView(DetailView):
 	def get(self, request, *args, **kwargs):
 		if request.session['user_name'] == 'sb':
 			queryset = Qualia.objects.filter(sb_annotations = False)
+			# form = HomeForm()
+			# obj = self.get_object()
+			# if obj.pk < 777:
+			# 	return render(request, self.template_name, {'form': form, 'object': obj})
+
 		elif request.session['user_name'] == 'cb':
 			queryset = Qualia.objects.filter(cb_annotations = False)
 
