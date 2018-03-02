@@ -10,6 +10,7 @@ class Qualia(models.Model):
 	qualename = models.CharField(max_length=20, default='Telic')
 	sb_annotations = models.BooleanField(default=False)
 	cb_annotations = models.BooleanField(default=False)
+	# gk_annotations = models.BooleanField(default=False)
 
 
 	def __str__(self):

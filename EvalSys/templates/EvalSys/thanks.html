@@ -1,13 +1,116 @@
-
 {% block body %}
 
-	<h1>Thank you!</h1>
-	<strong>To do more annotation, change the "thanks" ending in the URL to something in the following intervals:</strong>
-	<h4>Function of Entity: 1 - 776 </h4>
-	<h4>Origin of Entity: 777-891</h4>
-	<h4>Part-Whole Relation: 892-1373</h4>
+	<strong>List of Annotations</strong>
+	<p>
+		<strong>Note:</strong> Your annotations will be saved each time you hit the submit button, and you can see them if you go back to the page, in case you want to make a change. Otherwise, you can take note of which pages you have visited and annotated to avoid returning to the same page.
+	</p>
+	
+	
+	<table border="1" style="background-color: #e6e6ff">
+		<tr>
+			<th colspan="5">Function of Entity</th>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic1' %}">Page 1</a></td>
+			<td><a href="{% url 'telic2' %}">Page 2</a></td>
+			<td><a href="{% url 'telic3' %}">Page 3</a></td>
+			<td><a href="{% url 'telic4' %}">Page 4</a></td>
+			<td><a href="{% url 'telic5' %}">Page 5</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic6' %}">Page 6</a></td>
+			<td><a href="{% url 'telic7' %}">Page 7</a></td>
+			<td><a href="{% url 'telic8' %}">Page 8</a></td>
+			<td><a href="{% url 'telic9' %}">Page 9</a></td>
+			<td><a href="{% url 'telic10' %}">Page 10</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic11' %}">Page 11</a></td>
+			<td><a href="{% url 'telic12' %}">Page 12</a></td>
+			<td><a href="{% url 'telic13' %}">Page 13</a></td>
+			<td><a href="{% url 'telic14' %}">Page 14</a></td>
+			<td><a href="{% url 'telic15' %}">Page 15</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic16' %}">Page 16</a></td>
+			<td><a href="{% url 'telic17' %}">Page 17</a></td>
+			<td><a href="{% url 'telic18' %}">Page 18</a></td>
+			<td><a href="{% url 'telic19' %}">Page 19</a></td>
+			<td><a href="{% url 'telic20' %}">Page 20</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic21' %}">Page 21</a></td>
+			<td><a href="{% url 'telic22' %}">Page 22</a></td>
+			<td><a href="{% url 'telic23' %}">Page 23</a></td>
+			<td><a href="{% url 'telic24' %}">Page 24</a></td>
+			<td><a href="{% url 'telic25' %}">Page 25</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic26' %}">Page 26</a></td>
+			<td><a href="{% url 'telic27' %}">Page 27</a></td>
+			<td><a href="{% url 'telic28' %}">Page 28</a></td>
+			<td><a href="{% url 'telic29' %}">Page 29</a></td>
+			<td><a href="{% url 'telic30' %}">Page 30</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'telic31' %}">Page 31</a></td>
+			<td><a href="{% url 'telic32' %}">Page 32</a></td>
+			<td><a href="{% url 'telic33' %}">Page 33</a></td>
+			<td><a href="{% url 'telic34' %}">Page 34</a></td>
+			<td><a href="{% url 'telic35' %}">Page 35</a></td>
+		</tr>
 
-	<p>In case of error, you've probably annotated the entry before. So change your number.</p>
+	</table>
+<br><br>
+	<table border="1" style="background-color: #ccffff">
+		<tr>
+			<th colspan="5">Origin of Entity</th>
+		</tr>
+		<tr>
+			<td><a href="{% url 'agentive1' %}">Page 1</a></td>
+			<td><a href="{% url 'agentive2' %}">Page 2</a></td>
+			<td><a href="{% url 'agentive3' %}">Page 3</a></td>
+			<td><a href="{% url 'agentive4' %}">Page 4</a></td>
+			<td><a href="{% url 'agentive5' %}">Page 5</a></td>
+		</tr>
+	</table>
+
+	<br><br>
+	<table border="1" style="background-color: #fff2cc">
+		<tr>
+			<th colspan="5">Part-Whole Relation</th>
+		</tr>
+		<tr>
+			<td><a href="{% url 'constitutive1' %}">Page 1</a></td>
+			<td><a href="{% url 'constitutive2' %}">Page 2</a></td>
+			<td><a href="{% url 'constitutive3' %}">Page 3</a></td>
+			<td><a href="{% url 'constitutive4' %}">Page 4</a></td>
+			<td><a href="{% url 'constitutive5' %}">Page 5</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'constitutive6' %}">Page 6</a></td>
+			<td><a href="{% url 'constitutive7' %}">Page 7</a></td>
+			<td><a href="{% url 'constitutive8' %}">Page 8</a></td>
+			<td><a href="{% url 'constitutive9' %}">Page 9</a></td>
+			<td><a href="{% url 'constitutive10' %}">Page 10</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'constitutive11' %}">Page 11</a></td>
+			<td><a href="{% url 'constitutive12' %}">Page 12</a></td>
+			<td><a href="{% url 'constitutive13' %}">Page 13</a></td>
+			<td><a href="{% url 'constitutive14' %}">Page 14</a></td>
+			<td><a href="{% url 'constitutive15' %}">Page 15</a></td>
+		</tr>
+		<tr>
+			<td><a href="{% url 'constitutive16' %}">Page 16</a></td>
+			<td><a href="{% url 'constitutive17' %}">Page 17</a></td>
+			<td><a href="{% url 'constitutive18' %}">Page 18</a></td>
+			<td><a href="{% url 'constitutive19' %}">Page 19</a></td>
+			<td><a href="{% url 'constitutive20' %}">Page 20</a></td>
+		</tr>
+
+	</table>
 
 
+	
 {% endblock %}
