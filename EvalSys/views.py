@@ -118,25 +118,25 @@ class Telic1(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
+				saveToLexicon(data)
+				
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
 
 class Telic2(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -209,17 +209,17 @@ class Telic2(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -300,17 +300,17 @@ class Telic3(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -391,17 +391,17 @@ class Telic4(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -482,17 +482,17 @@ class Telic5(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -573,17 +573,17 @@ class Telic6(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -664,17 +664,17 @@ class Telic7(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -755,17 +755,17 @@ class Telic8(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -846,17 +846,17 @@ class Telic9(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -937,17 +937,17 @@ class Telic10(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1028,17 +1028,17 @@ class Telic11(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1119,17 +1119,17 @@ class Telic12(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
 
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1207,16 +1207,16 @@ class Telic13(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1294,16 +1294,16 @@ class Telic14(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1381,16 +1381,16 @@ class Telic15(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1468,16 +1468,16 @@ class Telic16(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1555,16 +1555,16 @@ class Telic17(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1642,16 +1642,16 @@ class Telic18(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1729,16 +1729,16 @@ class Telic19(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1816,16 +1816,16 @@ class Telic20(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1903,16 +1903,16 @@ class Telic21(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -1990,16 +1990,16 @@ class Telic22(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2077,16 +2077,16 @@ class Telic23(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2164,16 +2164,16 @@ class Telic24(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2251,16 +2251,16 @@ class Telic25(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
+				saveToLexicon(data)
 			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2338,16 +2338,16 @@ class Telic26(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2425,16 +2425,16 @@ class Telic27(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2512,16 +2512,16 @@ class Telic28(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2599,16 +2599,16 @@ class Telic29(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2686,16 +2686,16 @@ class Telic30(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2773,16 +2773,16 @@ class Telic31(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2860,16 +2860,16 @@ class Telic32(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -2947,16 +2947,16 @@ class Telic33(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3034,16 +3034,16 @@ class Telic34(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3121,16 +3121,16 @@ class Telic35(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3208,16 +3208,16 @@ class Agentive1(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3295,16 +3295,16 @@ class Agentive2(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3382,16 +3382,16 @@ class Agentive3(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3469,16 +3469,16 @@ class Agentive4(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3556,16 +3556,16 @@ class Agentive5(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3643,16 +3643,16 @@ class Constitutive1(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3730,16 +3730,16 @@ class Constitutive2(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3817,16 +3817,16 @@ class Constitutive3(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3904,16 +3904,16 @@ class Constitutive4(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -3991,16 +3991,16 @@ class Constitutive5(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4078,16 +4078,16 @@ class Constitutive6(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4165,16 +4165,16 @@ class Constitutive7(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4252,16 +4252,16 @@ class Constitutive8(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4339,16 +4339,16 @@ class Constitutive9(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4426,16 +4426,16 @@ class Constitutive10(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4513,16 +4513,16 @@ class Constitutive11(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4600,16 +4600,16 @@ class Constitutive12(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4687,16 +4687,16 @@ class Constitutive13(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4774,16 +4774,16 @@ class Constitutive14(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4861,16 +4861,16 @@ class Constitutive15(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -4948,16 +4948,16 @@ class Constitutive16(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -5035,16 +5035,16 @@ class Constitutive17(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -5122,16 +5122,16 @@ class Constitutive18(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -5209,16 +5209,16 @@ class Constitutive19(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -5296,16 +5296,16 @@ class Constitutive20(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
@@ -5383,16 +5383,16 @@ class Constitutive21(DetailView):
 
 			for i, j in enumerate(obj):
 				commentfield = 'form-' + str(i) + '-comment'
-			 	judgementfield = 'form-' + str(i) + '-judgement'
-			 	data[keys[i]][user_judgment] = request.POST[judgementfield]
-			 	data[keys[i]][user_comment] = request.POST[commentfield]
+				judgementfield = 'form-' + str(i) + '-judgement'
+				data[keys[i]][user_judgment] = request.POST[judgementfield]
+				data[keys[i]][user_comment] = request.POST[commentfield]
 
-			 	saveToLexicon(data)
-			 	
-			 	if j[user_judgment]:
-			 		formsetfeed[judgementfield] = j[user_judgment]
-			 	else:
-			 		formsetfeed[judgementfield] = 'idk'
+				saveToLexicon(data)
+				
+				if j[user_judgment]:
+					formsetfeed[judgementfield] = j[user_judgment]
+				else:
+					formsetfeed[judgementfield] = 'idk'
 		 		if j[user_comment]:
 		 			formsetfeed[commentfield] = j[user_comment]
 		 		else:
