@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'z-$42ng80y^gzea106vvv=#tloicf0
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['ghazaleh.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['ghazaleh.pythonanywhere.com', '127.0.0.1','ghazalehk.pythonanywhere.com']
 
 
 # Application definition
@@ -132,3 +132,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # SESSION_COOKIE_SECURE = True
 # CSRF_COOKIE_SECURE = True
 
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
