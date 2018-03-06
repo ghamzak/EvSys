@@ -220,14 +220,14 @@ class Telic2(DetailView):
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
 
 class Telic3(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -305,20 +305,19 @@ class Telic3(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks') #render(request, self.template_name, args)
 
 class Telic4(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -396,20 +395,19 @@ class Telic4(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic5(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -487,20 +485,19 @@ class Telic5(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic6(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -578,20 +575,19 @@ class Telic6(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic7(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -669,20 +665,19 @@ class Telic7(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic8(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -760,20 +755,19 @@ class Telic8(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic9(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -851,20 +845,19 @@ class Telic9(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic10(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -942,20 +935,19 @@ class Telic10(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic11(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1033,20 +1025,19 @@ class Telic11(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic12(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1124,20 +1115,19 @@ class Telic12(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
 
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic13(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1212,19 +1202,19 @@ class Telic13(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic14(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1299,19 +1289,19 @@ class Telic14(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic15(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1386,19 +1376,19 @@ class Telic15(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic16(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1473,19 +1463,19 @@ class Telic16(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic17(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1560,19 +1550,19 @@ class Telic17(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic18(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1647,19 +1637,19 @@ class Telic18(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic19(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1734,19 +1724,19 @@ class Telic19(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic20(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1821,19 +1811,19 @@ class Telic20(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic21(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1908,19 +1898,19 @@ class Telic21(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic22(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -1995,19 +1985,19 @@ class Telic22(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic23(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2082,19 +2072,19 @@ class Telic23(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic24(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2169,19 +2159,19 @@ class Telic24(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic25(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2256,19 +2246,19 @@ class Telic25(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-			 	
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic26(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2343,19 +2333,19 @@ class Telic26(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic27(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2430,19 +2420,19 @@ class Telic27(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic28(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2517,19 +2507,19 @@ class Telic28(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic29(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2604,19 +2594,19 @@ class Telic29(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic30(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2691,19 +2681,19 @@ class Telic30(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic31(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2778,19 +2768,19 @@ class Telic31(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic32(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2865,19 +2855,19 @@ class Telic32(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic33(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -2952,19 +2942,19 @@ class Telic33(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic34(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -3039,19 +3029,19 @@ class Telic34(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Telic35(DetailView):
 	template_name = 'EvalSys/qualia_detail.html'
@@ -3126,19 +3116,19 @@ class Telic35(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Agentive1(DetailView):
 	template_name = 'EvalSys/qualia_detail_agentive.html'
@@ -3213,19 +3203,19 @@ class Agentive1(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Agentive2(DetailView):
 	template_name = 'EvalSys/qualia_detail_agentive.html'
@@ -3300,19 +3290,19 @@ class Agentive2(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Agentive3(DetailView):
 	template_name = 'EvalSys/qualia_detail_agentive.html'
@@ -3387,19 +3377,19 @@ class Agentive3(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Agentive4(DetailView):
 	template_name = 'EvalSys/qualia_detail_agentive.html'
@@ -3474,19 +3464,19 @@ class Agentive4(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Agentive5(DetailView):
 	template_name = 'EvalSys/qualia_detail_agentive.html'
@@ -3561,19 +3551,19 @@ class Agentive5(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive1(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -3648,19 +3638,19 @@ class Constitutive1(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive2(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -3735,19 +3725,19 @@ class Constitutive2(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive3(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -3822,19 +3812,19 @@ class Constitutive3(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive4(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -3909,19 +3899,19 @@ class Constitutive4(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive5(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -3996,19 +3986,19 @@ class Constitutive5(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive6(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4083,19 +4073,19 @@ class Constitutive6(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive7(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4170,19 +4160,19 @@ class Constitutive7(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive8(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4257,19 +4247,19 @@ class Constitutive8(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive9(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4344,19 +4334,19 @@ class Constitutive9(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive10(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4431,19 +4421,19 @@ class Constitutive10(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive11(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4518,19 +4508,19 @@ class Constitutive11(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive12(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4605,19 +4595,19 @@ class Constitutive12(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive13(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4692,19 +4682,19 @@ class Constitutive13(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive14(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4779,19 +4769,19 @@ class Constitutive14(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive15(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4866,19 +4856,19 @@ class Constitutive15(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive16(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -4953,19 +4943,19 @@ class Constitutive16(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive17(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -5040,19 +5030,19 @@ class Constitutive17(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive18(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -5127,19 +5117,19 @@ class Constitutive18(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive19(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -5214,19 +5204,19 @@ class Constitutive19(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive20(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -5301,19 +5291,19 @@ class Constitutive20(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 class Constitutive21(DetailView):
 	template_name = 'EvalSys/qualia_detail_constitutive.html'
@@ -5388,19 +5378,19 @@ class Constitutive21(DetailView):
 				data[keys[i]][user_comment] = request.POST[commentfield]
 
 				saveToLexicon(data)
-				
+
 				if j[user_judgment]:
 					formsetfeed[judgementfield] = j[user_judgment]
 				else:
 					formsetfeed[judgementfield] = 'idk'
-		 		if j[user_comment]:
-		 			formsetfeed[commentfield] = j[user_comment]
-		 		else:
-		 			formsetfeed[commentfield] = ''
+				if j[user_comment]:
+					formsetfeed[commentfield] = j[user_comment]
+				else:
+					formsetfeed[commentfield] = ''
 
-		 	formset = AnnotationFormSet(formsetfeed)
-		 	args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
-		 	return HttpResponseRedirect('thanks')
+			formset = AnnotationFormSet(formsetfeed)
+			args = {'form': judgementform, 'entries': obj , 'object': obj2, 'formset': formset}
+			return HttpResponseRedirect('thanks')
 
 
 
