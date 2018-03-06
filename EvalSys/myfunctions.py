@@ -1,25 +1,25 @@
-import json, re, sys, pickle, random
+import json, re, sys, random # pickle
 from random import shuffle
 from django.conf import settings
 with open(settings.QUALIA_DATA_DICT, 'r') as infile:
     data = json.load(infile)
 
 
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'telicFinal' + '.pkl', 'rb') as f:
-	telicset = pickle.load(f)
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'constitutiveTest' + '.pkl', 'rb') as f2:
-	constitutiveset = pickle.load(f2)
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'agentiveFinal' + '.pkl', 'rb') as f1:
-	agentiveset = pickle.load(f1)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'telicFinal' + '.pkl', 'rb') as f:
+# 	telicset = pickle.load(f)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'constitutiveTest' + '.pkl', 'rb') as f2:
+# 	constitutiveset = pickle.load(f2)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'agentiveFinal' + '.pkl', 'rb') as f1:
+# 	agentiveset = pickle.load(f1)
 
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/teldoc.pkl', 'rb') as s1:
-	teldoc = pickle.load(s1)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/teldoc.pkl', 'rb') as s1:
+# 	teldoc = pickle.load(s1)
 
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/agedoc.pkl', 'rb') as s2:
-	agedoc = pickle.load(s2)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/agedoc.pkl', 'rb') as s2:
+# 	agedoc = pickle.load(s2)
 
-with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/condoc.pkl', 'rb') as s3:
-	condoc = pickle.load(s3)
+# with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/condoc.pkl', 'rb') as s3:
+# 	condoc = pickle.load(s3)
 
 # functions
 def grabentry(lex, quale):

@@ -7,7 +7,7 @@ from django.template.loader import render_to_string
 from django.conf import settings
 # from .models import Qualia
 # from django.db.models import Q
-import json, re, sys, pickle, random
+import json, re, sys, random # pickle
 from random import shuffle
 from .myfunctions import *
 
