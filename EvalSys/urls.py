@@ -65,5 +65,5 @@ urlpatterns = [
 	url(r'^Constitutive/19$', Constitutive19.as_view(), name='constitutive19'),
 	url(r'^Constitutive/20$', Constitutive20.as_view(), name='constitutive20'),
 	url(r'^Constitutive/21$', Constitutive21.as_view(), name='constitutive21'),
-	url(r'^thanks/', ThanksView.as_view(), name='thanks'),
+	url(r'thanks/', ThanksView.as_view(), name='thanks'),
 ]

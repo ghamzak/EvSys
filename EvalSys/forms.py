@@ -1,6 +1,6 @@
 from django import forms
 from django.forms import formset_factory
-from EvalSys.models import Qualia
+# from EvalSys.models import Qualia
 # from django.forms.models import inlineformset_factory
 
 class AnnotationForm(forms.Form):

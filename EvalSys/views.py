@@ -5,8 +5,8 @@ from django.http import JsonResponse, HttpResponse, HttpResponseRedirect, Http40
 from django.template.loader import render_to_string
 # import json, re
 from django.conf import settings
-from .models import Qualia
-from django.db.models import Q
+# from .models import Qualia
+# from django.db.models import Q
 import json, re, sys, pickle, random
 from random import shuffle
 from .myfunctions import *
