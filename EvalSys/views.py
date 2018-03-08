@@ -25,7 +25,7 @@ class IndexView(TemplateView):
 		args = {'userform': userform}
 		return render(request, self.template_name, args)
 	def post(self, request, *args, **kwargs):
-		userlist = {'sb': 'Susan', 'cb': 'Claire', 'gk': 'Ghazaleh'}
+		userlist = {'sb': 'Susan', 'cb': 'Claire', 'gk': 'Ghazaleh', 'kb': 'Kiersten'}
 		userform = IndexForm(request.POST)
 		if userform.is_valid():
 			print('form is valid')
