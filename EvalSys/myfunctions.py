@@ -5,6 +5,8 @@ with open(settings.QUALIA_DATA_DICT, 'r') as infile:
     data = json.load(infile)
 
 
+
+
 # with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'telicFinal' + '.pkl', 'rb') as f:
 # 	telicset = pickle.load(f)
 # with open('/Users/ghamzak/PycharmProjects/OntologyMapping/obj/'+'constitutiveTest' + '.pkl', 'rb') as f2:
